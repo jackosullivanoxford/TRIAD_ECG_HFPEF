@@ -41,6 +41,16 @@ python -c "import ecg; ecg.ecg(task='HFpEF')"
 
 ---
 
+## Pretrained Weights
+
+Trained model weights are also available here:
+
+https://huggingface.co/jackosullivan/TRIAD_ECG_HFPEF/tree/main
+
+These weights can be downloaded and used for **model evaluation or fine-tuning** without retraining the network from scratch.
+
+---
+
 ## Architecture & Specs
 
 **Model:** Custom CNN with Spatial/Channel Attention (*jos architecture*)
@@ -137,13 +147,7 @@ It is intended for **academic and research use only**.
 
 ## Contact
 
-**Jack W O'Sullivan**  
+**Jack W O'Sullivan**    
 Stanford University  
 
 jackos@stanford.edu
-
-pandas>=1.2.0
-scipy>=1.6.0
-scikit-learn>=0.24.0
-tqdm>=4.60.0
-torchinfo>=1.5.0
